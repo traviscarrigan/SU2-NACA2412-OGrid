@@ -1,5 +1,5 @@
-# NACA 2412 Airfoil
-[SU2](https://github.com/su2code/SU2) case for simulating turbulent flow over a NACA 2412 airfoil at 8 degrees angle of attack. The Reynolds number is approximately 3 million for this simulation. 
+# NACA 2412 Airfoil: O-Grid Topology
+[SU2](https://github.com/su2code/SU2) case for simulating turbulent flow over a NACA 2412 airfoil at 8 degrees angle of attack. The Reynolds number is approximately 3 million for this simulation. The mesh was generated using a single hyperbolic extrusion, the result of which is an o-grid style topology with a y+=1.  
 
 The airfoil is aligned with the x-axis, so it's the velocity components that control the angle of attack. The Spalart Allmaras turbulence model is used for this case. 
 
